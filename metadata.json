@@ -1,0 +1,6 @@
+{
+  "name": "Decoração Express: Monte Sua Festa em 1 Minuto",
+  "description": "Simulador e roteiro cenográfico interativo para montar decorações, aplicar a regra 60-30-10, estruturar a mesa e gerar orçamentos express em 1 minuto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

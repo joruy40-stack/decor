@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  /* Vermelho Ferrari (Rosso Corsa - Cor Primária Vibrante) */
+  --color-primary: #D40000;
+  --color-primary-container: #A30000;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #ffebe8;
+  --color-primary-fixed: #ffdcd7;
+  --color-primary-fixed-dim: #ffb3a8;
+  --color-on-primary-fixed: #410000;
+  --color-on-primary-fixed-variant: #690000;
+
+  /* Preto Carbono & Grafite Nobre (Cor Secundária) */
+  --color-secondary: #242221;
+  --color-secondary-container: #3d3a39;
+  --color-on-secondary-container: #f5f2f0;
+  --color-secondary-fixed: #ede8e6;
+  --color-secondary-fixed-dim: #d4cecb;
+  --color-on-secondary-fixed: #171514;
+  --color-on-secondary-fixed-variant: #3b3735;
+
+  /* Dourado Ouro Nobre (Cor Terciária) */
+  --color-tertiary: #B8860B;
+  --color-tertiary-container: #fef5d9;
+  --color-on-tertiary-container: #5c4300;
+  --color-tertiary-fixed: #faeec7;
+  --color-tertiary-fixed-dim: #ebd38f;
+  --color-on-tertiary-fixed: #2e2100;
+  --color-on-tertiary-fixed-variant: #523c00;
+
+  /* Superfícies & Linho Pérola */
+  --color-background: #faf8f7;
+  --color-on-background: #1c1918;
+  --color-surface: #faf8f7;
+  --color-surface-dim: #dcd8d6;
+  --color-surface-bright: #faf8f7;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f0ee;
+  --color-surface-container: #ece7e5;
+  --color-surface-container-high: #e4dfdd;
+  --color-surface-container-highest: #ddd7d5;
+  --color-surface-variant: #ddd7d5;
+  --color-on-surface: #1c1918;
+  --color-on-surface-variant: #524b49;
+  --color-outline: #847c7a;
+  --color-outline-variant: #cfc8c6;
+
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom scrollbar in Vermelho Ferrari */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 0, 0, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 0, 0, 0.55);
+}
